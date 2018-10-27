@@ -1,0 +1,106 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout : page
+title: "Cities"
+
+
+---
+<!DOCTYPE html>
+<html>
+<head>
+<!--
+<style>
+  img {
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 500px;
+  height: auto;
+  }
+  .container {
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+-->
+<style>
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+
+</head>
+<body>
+
+<h1>
+please select the city </h1>
+
+
+
+  {%  for page in site.data.menu.cities %}
+  <div class="responsive">
+    <div class="gallery">
+   <a href="temp.html">
+        <img src="{{site.baseurl}}/img/{{page.image}}"  alt="{{page.city}}"></a>
+ <div class="desc">
+        {{page.city}}</div>
+  </div>
+</div>
+{% endfor %}
+
+
+
+
+
+
+</body>

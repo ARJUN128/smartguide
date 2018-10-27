@@ -1,0 +1,25 @@
+{
+ "cities": [{
+     "city": "Prague",
+     "country": "Czech Republic",
+     "description": "Prague is the capital and largest city in the Czech Republic, the 14th largest city in the European Union and the historical capital of Bohemia. Situated in the north-west of the country on the Vltava river, the city is home to about 1.3 million people, while its metropolitan area is estimated to have a population of 2.6 million. The city has a temperate climate, with warm summers and chilly winters.",
+     "atraction": ["Prague Castle", "Charles Bridge", "Old Town Square", "Prague astronomical clock", "the Jewish Quarter", "Petřín Vyšehrad"],
+     "image":"p.jpg"
+   },
+
+   {
+     "city": "Amsterdam",
+     "country": "Netherlands",
+     "description": "Amsterdam  is the capital and most populous municipality of the Netherlands. Its status as the capital is mandated by the Constitution of the Netherlands, although it is not the seat of the government, which is The Hague.[12] Amsterdam has a population of 851,373 within the city proper, 1,351,587 in the urban area, and 2,410,960 in the Amsterdam metropolitan area. The city is located in the province of North Holland in the west of the country but is not its capital, which is Haarlem. The metropolitan area comprises much of the northern part of the Randstad, one of the larger conurbations in Europe, with a population of approximately 8 million.",
+     "atraction": ["Rijksmuseum", "the Van Gogh Museum", " Stedelijk Museum ", "Hermitage Amsterdam", " Anne Frank House", "the Scheepvaartmuseum", "Amsterdam Museum", "Heineken Experience", " Royal Palace of Amsterdam", "Natura Artis Magistra", "Hortus Botanicus Amsterdam", "NEMO Science Museum", "red-light district"],
+      "image":"a.jpeg"
+   },
+   {
+     "city": "paris",
+     "country": "france",
+     "description": "aris (French pronunciation: ​[paʁi] (About this sound listen)) is the capital and most populous city of France, with an area of 105 square kilometres (41 square miles) and a population of 2,206,488.[5][6] With 200,000 inhabitants in 1328, Paris, then already the capital of France, was the most populous city of Europe. By comparison, London in 1300 had 80,000 inhabitants.[7] Since the 17th century, Paris has been one of Europe's major centres of finance, commerce, fashion, science, music, and painting. The Paris Region had a GDP of €681 billion (US$850 billion) in 2016, accounting for 31 per cent of the GDP of France.[8] In 2013–2014, the Paris Region had the third-highest GDP in the world and the largest regional GDP in the EU. According to the Economist Intelligence Unit Worldwide Cost of Living Survey in 2018, Paris was the second-most expensive city in the world, behind Singapore and ahead of Zurich, Hong Kong, Oslo and Geneva",
+     "atraction": ["Cathedral of Notre Dame de Paris", "Eiffel Tower", " Grand Palais  ", "Petit Palais"],
+      "image":"pa.jpg"
+   }
+ ]
+}
